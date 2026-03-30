@@ -1,0 +1,27 @@
+{
+  "name": "vulnerable-test-app",
+  "version": "1.0.0",
+  "description": "Intentionally vulnerable application for security testing with ASoC",
+  "main": "vulnerable-app.js",
+  "scripts": {
+    "start": "node vulnerable-app.js",
+    "test": "echo \"No tests - this is vulnerable code for scanning\""
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "node-fetch": "^2.6.1",
+    "xml2js": "^0.4.23"
+  },
+  "keywords": [
+    "security",
+    "testing",
+    "vulnerable",
+    "asoc",
+    "appscan"
+  ],
+  "author": "Security Testing Team",
+  "license": "MIT",
+  "warning": "⚠️ This package contains intentional security vulnerabilities for testing purposes only. DO NOT use in production!"
+}
